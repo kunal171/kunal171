@@ -1,99 +1,115 @@
-<h1 align="center">👋 Hi, I'm Kunal</h1>
+<div align="center">
+  <img
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,45:0e7490,100:14b8a6&height=220&section=header&text=Kunal&fontSize=56&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Rust%20Backend%20Engineer%20%7C%20Distributed%20Systems%20%7C%20Blockchain%20Infrastructure&descAlignY=58&descSize=16"
+    width="100%"
+    alt="Kunal - Rust Backend Engineer"
+  />
+
+  <a href="https://git.io/typing-svg">
+    <img
+      src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1400&color=22D3EE&center=true&vCenter=true&width=900&lines=Building+fast%2C+safe%2C+observable+backend+systems+in+Rust;Exploring+matching+engines%2C+event+replay%2C+and+low-latency+design;Blockchain+infrastructure%3A+indexers%2C+consensus%2C+and+on-chain+tooling"
+      alt="Typing intro"
+    />
+  </a>
+</div>
 
 <p align="center">
-  <b>🦀 Rust & Backend Engineer · Blockchain · Smart Contracts</b>
-</p>
-
-<p align="center">
-  <i>Building fast, type-safe systems — from consensus engines to chain indexers.</i>
-</p>
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/kunal-r6/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:kunalkunal63@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <img src="https://komarev.com/ghpvc/?username=kunal171&style=for-the-badge&color=orange" alt="Profile views"/>
+  <a href="https://www.linkedin.com/in/kunal-r6/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="mailto:kunalkunal63@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+  <img src="https://komarev.com/ghpvc/?username=kunal171&style=for-the-badge&color=0891b2" alt="Profile views"/>
 </p>
 
 ---
 
-### 🚀 About me
+## Rust Systems Portfolio
 
 ```rust
 struct Engineer {
     name: &'static str,
     role: &'static str,
-    focus: [&'static str; 4],
+    strengths: [&'static str; 5],
 }
 
 fn main() {
     let me = Engineer {
         name: "Kunal",
-        role: "Rust & Backend Engineer",
-        focus: ["Blockchain", "Smart Contracts", "Distributed Systems", "Type-safe APIs"],
+        role: "Rust Backend Engineer",
+        strengths: [
+            "async services",
+            "distributed systems",
+            "event-driven architecture",
+            "blockchain infrastructure",
+            "performance-oriented design",
+        ],
     };
-    println!("Coding in Rust, shipping on-chain. ⚡");
+
+    println!("{} builds {}.", me.name, me.role);
 }
 ```
 
-- 🦀 **Rust-first** — distributed systems, consensus, web services, and on-chain tooling
-- ⛓️ **Blockchain** — Substrate / Polkadot indexing, Solana (Anchor) programs, Fuel/Sway
-- 🧩 **Smart contracts** — NFT marketplaces, escrows, prediction markets, token listings
-- 🛠️ Currently building **[subdex](https://github.com/kunal171/subdex)** — a general-purpose, code-first **Substrate indexer framework** in Rust
-- 📫 Reach me: **kunalkunal63@gmail.com**
+I build Rust-first backend systems with a focus on correctness, concurrency, and clear architecture. My current direction is systems engineering at the intersection of distributed backends, blockchain infrastructure, and market-structure/low-latency projects.
 
----
-
-### 🧰 Tech Stack
-
-**Languages**
-
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-
-**Blockchain**
-
-![Substrate](https://img.shields.io/badge/Substrate-282828?style=for-the-badge&logo=parity-substrate&logoColor=white)
-![Polkadot](https://img.shields.io/badge/Polkadot-E6007A?style=for-the-badge&logo=polkadot&logoColor=white)
-![Solana](https://img.shields.io/badge/Solana-9945FF?style=for-the-badge&logo=solana&logoColor=white)
-![Anchor](https://img.shields.io/badge/Anchor-263238?style=for-the-badge&logoColor=white)
-
-**Backend & Rust ecosystem**
-
-![Tokio](https://img.shields.io/badge/Tokio-0E7C61?style=for-the-badge&logoColor=white)
-![Actix](https://img.shields.io/badge/Actix_Web-000000?style=for-the-badge&logoColor=white)
-![Axum](https://img.shields.io/badge/Axum-2B2B2B?style=for-the-badge&logoColor=white)
-![gRPC](https://img.shields.io/badge/gRPC%20%2F%20Tonic-244c5a?style=for-the-badge&logo=grpc&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-
-**Data & Infra**
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![libp2p](https://img.shields.io/badge/libp2p-360D5C?style=for-the-badge&logoColor=white)
-![WebAssembly](https://img.shields.io/badge/WASM-654FF0?style=for-the-badge&logo=webassembly&logoColor=white)
-
----
-
-### 📌 Featured Projects
-
-| Project | Description |
+| Focus | What I Am Building |
 |---|---|
-| 🔍 **[subdex](https://github.com/kunal171/subdex)** | General-purpose, **code-first Substrate indexer framework** in Rust — resumable, reorg-safe, upgrade-correct, with a GraphQL API |
-| 📨 **[distributed_queue](https://github.com/kunal171/distributed_queue)** | A message broker in Rust with TCP networking — multiple producers/consumers, at-least-once delivery |
-| 🗳️ **[raft_consensus](https://github.com/kunal171/raft_consensus)** | Raft consensus implementation in Rust with a load balancer |
-| 📡 **[grpc_service](https://github.com/kunal171/grpc_service)** | Task-management gRPC service (Tonic) — unary, server-streaming, and bidirectional streaming |
-| 🖼️ **[NFT_market](https://github.com/kunal171/NFT_market)** | NFT marketplace on **Solana** (Anchor) |
-| 🔐 **[Solana_Escrow](https://github.com/kunal171/Solana_Escrow)** | Solana NFT marketplace using an on-chain escrow |
-| 🔑 **[jwt-actix](https://github.com/kunal171/jwt-actix)** | JWT authentication implemented in Rust with Actix Web |
+| Matching engines | Limit order book with event logs, replay, simulation, and later HFT-style optimizations |
+| Distributed systems | Message brokers, Raft consensus, async networking, gRPC services |
+| Blockchain infrastructure | Substrate indexing, chain data pipelines, on-chain tooling |
+| Backend APIs | Axum/Tokio services with persistence, validation, redirects, auth, and clean error handling |
 
 ---
 
-### 📊 GitHub Stats
+## Featured Projects
+
+| Project | Why It Matters |
+|---|---|
+| **[limit_order_book](https://github.com/kunal171/limit_order_book)** | Rust matching-engine lab covering price-time priority, cancel/modify flows, event logging, replay, simulation, AI analysis, Windmill orchestration, and later low-latency/HFT work |
+| **[subdex](https://github.com/kunal171/subdex)** | General-purpose, code-first Substrate indexer framework in Rust for chain data ingestion and infrastructure-style backend design |
+| **[distributed_queue](https://github.com/kunal171/distributed_queue)** | Rust message broker with TCP networking, multiple producers/consumers, and at-least-once delivery semantics |
+| **[raft_consensus](https://github.com/kunal171/raft_consensus)** | Raft consensus implementation in Rust with leader election, replication concepts, and load-balancing experiments |
+| **[grpc_service](https://github.com/kunal171/grpc_service)** | Task-management gRPC service built with Tonic, covering unary RPCs, server streaming, and bidirectional streaming |
+| **[url_shortner](https://github.com/kunal171/url_shortner)** | Axum/Tokio/MongoDB URL shortener with redirects, URL validation, visit stats, and collision-checked short-code generation |
+| **[redis_clone](https://github.com/kunal171/redis_clone)** | Learning-focused Redis clone in Rust with Tokio, RESP parsing, and an in-memory key-value store |
+| **[blockchain](https://github.com/kunal171/blockchain)** | Mini blockchain in Rust built on a peer-to-peer gossip networking foundation |
+
+---
+
+## Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=rust,ts,solidity,postgres,redis,mongodb,docker,linux,git,githubactions" alt="Tech stack icons"/>
+</p>
+
+| Area | Tools And Concepts |
+|---|---|
+| Rust backend | Tokio, Axum, Actix Web, Tonic/gRPC, async/await, channels, error handling |
+| Data systems | PostgreSQL, MongoDB, Redis concepts, indexing, caching, persistence |
+| Distributed systems | Raft, queues, message delivery guarantees, TCP networking, replayable logs |
+| Blockchain | Substrate, Polkadot, Solana, Anchor, smart contracts, indexers |
+| Engineering practice | Git workflows, testing, Docker, observability-minded design |
+
+---
+
+## Current Direction
+
+```text
+Rust matching engine
+-> event log and replay
+-> market data simulator
+-> benchmarks and latency measurement
+-> AI analysis layer
+-> Windmill orchestration
+-> advanced HFT-style architecture experiments
+```
+
+I am intentionally building projects that explain the "why" behind backend engineering decisions: when to use a sorted map, why replay matters, how idempotency prevents production bugs, where locks hurt latency, and how systems recover after failure.
+
+---
+
+## GitHub Stats
 
 <p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=kunal171&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub stats"/>
@@ -104,8 +120,10 @@ fn main() {
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=kunal171&theme=tokyonight&hide_border=true" alt="GitHub streak"/>
 </p>
 
----
-
-<p align="center">
-  <i>⚡ Coding in Rust, shipping on-chain.</i>
-</p>
+<div align="center">
+  <img
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:14b8a6,55:0e7490,100:0f172a&height=120&section=footer"
+    width="100%"
+    alt="Footer"
+  />
+</div>
