@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="340" viewBox="0 0 640 340" role="img" aria-labelledby="title desc">
+<title id="title">Kunal — Rust backend engineer</title><desc id="desc">Trading, networking and on-chain infrastructure, with a compass-star illustration.</desc>
+<defs>
+  <radialGradient id="aura"><stop stop-color="#b5a0ff" stop-opacity=".2"/><stop offset="1" stop-color="#0b1020" stop-opacity="0"/></radialGradient>
+  <linearGradient id="thread"><stop stop-color="#b5a0ff"/><stop offset=".5" stop-color="#f0cc86"/><stop offset="1" stop-color="#85e0cc"/></linearGradient>
+</defs>
+<style>
+text {font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif}
+.mono {font-family: ui-monospace, 'SFMono-Regular', Consolas, monospace; letter-spacing: 2px}
+.spin {transform-box: fill-box; transform-origin: center; animation: orbit 36s linear infinite}
+.reverse {animation-direction: reverse; animation-duration: 48s}
+.twinkle {animation: twinkle 6s ease-in-out infinite alternate}
+.late {animation-delay: -3s}
+.pulse {animation: pulse 5s ease-in-out infinite}
+.flow {stroke-dasharray: 5 13; animation: flow 5s linear infinite}
+.orbit-dot {transform-box: view-box; transform-origin: 600px 170px; animation: orbit 12s linear infinite}
+@keyframes orbit {to {transform:rotate(360deg)}}
+@keyframes twinkle {from {opacity:.4} to {opacity:1}}
+@keyframes pulse {0%,100% {opacity:.4} 50% {opacity:.9}}
+@keyframes flow {to {stroke-dashoffset:-180}}
+@media (prefers-reduced-motion:reduce) {.spin,.twinkle,.pulse,.flow,.orbit-dot {animation:none!important}}
+</style>
+<rect width="640" height="340" rx="24" fill="#0b1020"/>
+<text x="32" y="43" font-size="15" fill="#acb6cd" class="mono">KUNAL171</text><text x="28" y="143" font-size="92" fill="#f4f1ea" font-weight="700" letter-spacing="-5">Kunal</text><text x="32" y="202" font-size="26" fill="#f4f1ea" >Rust backend engineer</text><path d="M32 228H79" stroke="#f0cc86" stroke-width="2"/><text x="32" y="274" font-size="23" fill="#acb6cd" >Trading systems / Networking</text><text x="32" y="309" font-size="23" fill="#acb6cd" >On-chain infrastructure</text><circle cx="507" cy="117" r="112" fill="url(#aura)"/><g class="spin" fill="none" stroke="#34405b"><circle cx="507" cy="117" r="73"/><path d="M507 36L588 117L507 198L426 117Z"/><circle cx="507" cy="117" r="88" stroke-dasharray="2 12"/></g><path class="pulse" transform="translate(507 117)" d="M0 -32 Q2 -2 32 0 Q2 2 0 32 Q-2 2 -32 0 Q-2 -2 0 -32Z" fill="#f0cc86"/><path class="twinkle" transform="translate(598 222)" d="M0 -8 Q2 -2 8 0 Q2 2 0 8 Q-2 2 -8 0 Q-2 -2 0 -8Z" fill="#b5a0ff"/><path class="twinkle late" transform="translate(421 44)" d="M0 -6 Q2 -2 6 0 Q2 2 0 6 Q-2 2 -6 0 Q-2 -2 0 -6Z" fill="#85e0cc"/></svg>

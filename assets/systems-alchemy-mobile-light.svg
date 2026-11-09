@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="520" viewBox="0 0 600 520" role="img" aria-labelledby="title desc">
+<title id="title">Systems alchemy</title><desc id="desc">Packets, events and orders enter a glowing compass; validated, applied and committed state emerge below. Decorative artwork, not live activity data.</desc>
+<defs>
+  <radialGradient id="aura"><stop stop-color="#6950be" stop-opacity=".2"/><stop offset="1" stop-color="#f8f6f0" stop-opacity="0"/></radialGradient>
+  <linearGradient id="thread"><stop stop-color="#6950be"/><stop offset=".5" stop-color="#906019"/><stop offset="1" stop-color="#147f72"/></linearGradient>
+</defs>
+<style>
+text {font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif}
+.mono {font-family: ui-monospace, 'SFMono-Regular', Consolas, monospace; letter-spacing: 2px}
+.spin {transform-box: fill-box; transform-origin: center; animation: orbit 36s linear infinite}
+.reverse {animation-direction: reverse; animation-duration: 48s}
+.twinkle {animation: twinkle 6s ease-in-out infinite alternate}
+.late {animation-delay: -3s}
+.pulse {animation: pulse 5s ease-in-out infinite}
+.flow {stroke-dasharray: 5 13; animation: flow 5s linear infinite}
+.orbit-dot {transform-box: view-box; transform-origin: 600px 170px; animation: orbit 12s linear infinite}
+@keyframes orbit {to {transform:rotate(360deg)}}
+@keyframes twinkle {from {opacity:.4} to {opacity:1}}
+@keyframes pulse {0%,100% {opacity:.4} 50% {opacity:.9}}
+@keyframes flow {to {stroke-dashoffset:-180}}
+@media (prefers-reduced-motion:reduce) {.spin,.twinkle,.pulse,.flow,.orbit-dot {animation:none!important}}
+</style>
+<rect width="600" height="520" rx="24" fill="#f8f6f0"/>
+<text x="300" y="36" font-size="16" fill="#56647d" class="mono" text-anchor="middle">SYSTEMS ALCHEMY</text><circle cx="300" cy="260" r="160" fill="url(#aura)"/><rect x="30" y="76" width="160" height="46" rx="10" fill="#efedf7" stroke="#cdcddd"/><text x="110" y="106" font-size="22" fill="#1f2942" text-anchor="middle">packets</text><rect x="30" y="424" width="160" height="46" rx="10" fill="#efedf7" stroke="#cdcddd"/><text x="110" y="454" font-size="22" fill="#1f2942" text-anchor="middle">validate</text><path d="M110 122C110 168 300 131 300 150M300 370C300 389 110 380 110 424" stroke="#cdcddd" fill="none"/><path class="flow" style="animation-delay:-0.0s" d="M110 122C110 168 300 131 300 150M300 370C300 389 110 380 110 424" stroke="#6950be" fill="none" stroke-width="2"/><rect x="220" y="76" width="160" height="46" rx="10" fill="#efedf7" stroke="#cdcddd"/><text x="300" y="106" font-size="22" fill="#1f2942" text-anchor="middle">events</text><rect x="220" y="424" width="160" height="46" rx="10" fill="#efedf7" stroke="#cdcddd"/><text x="300" y="454" font-size="22" fill="#1f2942" text-anchor="middle">apply</text><path d="M300 122C300 168 300 131 300 150M300 370C300 389 300 380 300 424" stroke="#cdcddd" fill="none"/><path class="flow" style="animation-delay:-1.7s" d="M300 122C300 168 300 131 300 150M300 370C300 389 300 380 300 424" stroke="#906019" fill="none" stroke-width="2"/><rect x="410" y="76" width="160" height="46" rx="10" fill="#efedf7" stroke="#cdcddd"/><text x="490" y="106" font-size="22" fill="#1f2942" text-anchor="middle">orders</text><rect x="410" y="424" width="160" height="46" rx="10" fill="#efedf7" stroke="#cdcddd"/><text x="490" y="454" font-size="22" fill="#1f2942" text-anchor="middle">commit</text><path d="M490 122C490 168 300 131 300 150M300 370C300 389 490 380 490 424" stroke="#cdcddd" fill="none"/><path class="flow" style="animation-delay:-3.4s" d="M490 122C490 168 300 131 300 150M300 370C300 389 490 380 490 424" stroke="#147f72" fill="none" stroke-width="2"/><circle cx="300" cy="260" r="110" stroke="#cdcddd" fill="none"/><g class="spin" fill="none" stroke="#6950be"><path d="M300 166L381 307H219Z"/><circle cx="300" cy="260" r="94" stroke-dasharray="18 25"/></g><g class="spin reverse" fill="none" stroke="#906019"><circle cx="300" cy="260" r="122" stroke-dasharray="1 15"/></g><path class="pulse" transform="translate(300 260)" d="M0 -36 Q2 -2 36 0 Q2 2 0 36 Q-2 2 -36 0 Q-2 -2 0 -36Z" fill="#906019"/><path class="twinkle" transform="translate(129 265)" d="M0 -9 Q2 -2 9 0 Q2 2 0 9 Q-2 2 -9 0 Q-2 -2 0 -9Z" fill="#147f72"/><path class="twinkle late" transform="translate(465 224)" d="M0 -7 Q2 -2 7 0 Q2 2 0 7 Q-2 2 -7 0 Q-2 -2 0 -7Z" fill="#6950be"/></svg>

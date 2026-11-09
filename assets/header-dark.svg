@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="350" viewBox="0 0 1200 350" role="img" aria-labelledby="title desc">
+<title id="title">Kunal — Rust backend engineer</title><desc id="desc">Trading systems, networking and on-chain infrastructure. A quiet constellation and a compass star accompany the name.</desc>
+<defs>
+  <radialGradient id="aura"><stop stop-color="#b5a0ff" stop-opacity=".2"/><stop offset="1" stop-color="#0b1020" stop-opacity="0"/></radialGradient>
+  <linearGradient id="thread"><stop stop-color="#b5a0ff"/><stop offset=".5" stop-color="#f0cc86"/><stop offset="1" stop-color="#85e0cc"/></linearGradient>
+</defs>
+<style>
+text {font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif}
+.mono {font-family: ui-monospace, 'SFMono-Regular', Consolas, monospace; letter-spacing: 2px}
+.spin {transform-box: fill-box; transform-origin: center; animation: orbit 36s linear infinite}
+.reverse {animation-direction: reverse; animation-duration: 48s}
+.twinkle {animation: twinkle 6s ease-in-out infinite alternate}
+.late {animation-delay: -3s}
+.pulse {animation: pulse 5s ease-in-out infinite}
+.flow {stroke-dasharray: 5 13; animation: flow 5s linear infinite}
+.orbit-dot {transform-box: view-box; transform-origin: 600px 170px; animation: orbit 12s linear infinite}
+@keyframes orbit {to {transform:rotate(360deg)}}
+@keyframes twinkle {from {opacity:.4} to {opacity:1}}
+@keyframes pulse {0%,100% {opacity:.4} 50% {opacity:.9}}
+@keyframes flow {to {stroke-dashoffset:-180}}
+@media (prefers-reduced-motion:reduce) {.spin,.twinkle,.pulse,.flow,.orbit-dot {animation:none!important}}
+</style>
+<rect width="1200" height="350" rx="24" fill="#0b1020"/>
+<circle cx="962" cy="170" r="225" fill="url(#aura)"/><text x="64" y="57" font-size="15" fill="#acb6cd" class="mono">KUNAL171</text><text x="59" y="176" font-size="108" fill="#f4f1ea" font-weight="700" letter-spacing="-6">Kunal</text><path class="" transform="translate(376 146)" d="M0 -14 Q2 -2 14 0 Q2 2 0 14 Q-2 2 -14 0 Q-2 -2 0 -14Z" fill="#f0cc86"/><text x="64" y="230" font-size="30" fill="#f4f1ea" >Rust backend engineer</text><path d="M64 261H116" stroke="#f0cc86" stroke-width="2"/><text x="64" y="300" font-size="19" fill="#acb6cd" >Trading systems  /  Networking  /  On-chain infrastructure</text><g stroke="#34405b" fill="none"><circle cx="968" cy="165" r="105"/><circle cx="968" cy="165" r="125" stroke-dasharray="2 11"/><path d="M823 165H1113M968 20V310" stroke-dasharray="2 9"/><path d="M845 74L1064 249M864 257L1073 71" opacity=".55"/></g><g class="spin"><ellipse cx="968" cy="165" rx="136" ry="46" transform="rotate(-32 968 165)" stroke="url(#thread)" stroke-width="1.4" fill="none"/><circle cx="1076" cy="93" r="5" fill="#85e0cc"/></g><g class="spin reverse"><path d="M968 76L1057 165L968 254L879 165Z" fill="none" stroke="#b5a0ff" stroke-opacity=".45"/></g><path class="pulse" transform="translate(968 165)" d="M0 -37 Q2 -2 37 0 Q2 2 0 37 Q-2 2 -37 0 Q-2 -2 0 -37Z" fill="#f0cc86"/><circle cx="968" cy="165" r="8" fill="#f4f1ea"/><path class="twinkle" transform="translate(816 63)" d="M0 -7 Q2 -2 7 0 Q2 2 0 7 Q-2 2 -7 0 Q-2 -2 0 -7Z" fill="#f0cc86"/><path class="twinkle" transform="translate(1119 268)" d="M0 -8 Q2 -2 8 0 Q2 2 0 8 Q-2 2 -8 0 Q-2 -2 0 -8Z" fill="#b5a0ff"/><path class="twinkle" transform="translate(1109 47)" d="M0 -4 Q2 -2 4 0 Q2 2 0 4 Q-2 2 -4 0 Q-2 -2 0 -4Z" fill="#85e0cc"/><path class="twinkle" transform="translate(828 263)" d="M0 -4 Q2 -2 4 0 Q2 2 0 4 Q-2 2 -4 0 Q-2 -2 0 -4Z" fill="#85e0cc"/><path d="M24 329H1176" stroke="#34405b" stroke-opacity=".6"/></svg>
