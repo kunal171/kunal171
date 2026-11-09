@@ -1,17 +1,10 @@
-<div align="center">
-  <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,45:0e7490,100:14b8a6&height=215&section=header&text=Kunal&fontSize=56&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Rust%20Backend%20Engineer%20%7C%20Distributed%20Systems%20%7C%20Blockchain%20Infrastructure&descAlignY=58&descSize=16"
-    width="100%"
-    alt="Kunal — Rust backend engineer"
-  />
-
-  <a href="https://git.io/typing-svg">
-    <img
-      src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1400&color=22D3EE&center=true&vCenter=true&width=900&lines=Matching+engines+with+deterministic+state;Authenticated+networking+on+Linux;Solana+programs%2C+indexers%2C+and+event+pipelines"
-      alt="Matching engines, authenticated networking, and blockchain infrastructure"
-    />
-  </a>
-</div>
+<picture>
+  <source media="(max-width: 520px) and (prefers-color-scheme: dark)" srcset="assets/header-mobile-dark.svg" />
+  <source media="(max-width: 520px) and (prefers-color-scheme: light)" srcset="assets/header-mobile-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg" />
+  <img src="assets/header-dark.svg" width="100%" alt="Kunal — Rust backend engineer. Trading systems, networking and on-chain infrastructure." />
+</picture>
 
 <p align="center">
   <a href="https://kunalagarawal.vercel.app/">
@@ -31,17 +24,15 @@
   </a>
 </p>
 
-## Hello, I am Kunal
+I write Rust for trading systems, Linux networking and Solana infrastructure.
 
-I build trading, networking, and blockchain systems in Rust. My projects range from an authenticated Linux VPN to matching engines and a Solana central limit order book.
-
-I am most interested in the parts that are easy to hide in a demo but difficult to get right: deterministic state transitions, replay, failure recovery, bounded on-chain execution, ownership, and safe resource cleanup. I document unfinished pieces and design tradeoffs alongside the code.
+My main project is [Outcomia](https://github.com/kunal171/outcomia), an on-chain order book for prediction markets and spot trading. I also work on a native matching engine and an authenticated Linux VPN. The interesting work is usually in recovery, replay and the edges between components.
 
 ## Selected systems
 
 | Project | Engineering focus |
 |---|---|
-| **[Outcomia](https://github.com/kunal171/Outcomia)** | CLOB-based prediction markets and spot trading on Solana, with collateralized orders, price-level FIFO queues, bounded atomic matching, resolution and redemption, fee accounting, a Next.js client, and a Rust indexer |
+| **[Outcomia](https://github.com/kunal171/outcomia)** | CLOB-based prediction markets and spot trading on Solana, with collateralized orders, price-level FIFO queues, bounded atomic matching, resolution and redemption, fee accounting, a Next.js client, and a Rust indexer |
 | **[HFT Limit Order Book](https://github.com/kunal171/hft-limit-order-book)** | Deterministic price-time matching, O(1) cancellation, replayable events, simulation, benchmarks, and a PostgreSQL control plane | 
 | **[Rust VPN](https://github.com/kunal171/rust_vpn)** | Linux TUN over UDP with X25519, Ed25519, ChaCha20-Poly1305, replay protection, routing, DNS handling, and cleanup |
 | **[Subdex](https://github.com/kunal171/subdex)** | Code-first Substrate indexer for chain ingestion and backend data pipelines | 
@@ -86,18 +77,12 @@ Outcomia                         Native Rust matching engine
 
 The two tracks study the same problem from different constraints: Outcomia must fit Solana's account and transaction model, while the native engine can optimize an in-memory single-writer hot path.
 
-## Activity
+## A little systems magic
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kunal171/kunal171/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kunal171/kunal171/output/github-contribution-grid-snake.svg" />
-  <img alt="Animated GitHub contribution trail" src="https://raw.githubusercontent.com/kunal171/kunal171/output/github-contribution-grid-snake.svg" />
+  <source media="(max-width: 520px) and (prefers-color-scheme: dark)" srcset="assets/systems-alchemy-mobile-dark.svg" />
+  <source media="(max-width: 520px) and (prefers-color-scheme: light)" srcset="assets/systems-alchemy-mobile-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/systems-alchemy-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/systems-alchemy-light.svg" />
+  <img src="assets/systems-alchemy-dark.svg" width="100%" alt="Systems alchemy: packets, events and orders pass through a glowing compass into validated, applied and committed state. Decorative animation, not live activity data." />
 </picture>
-
-<p align="center">
-  <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:14b8a6,55:0e7490,100:0f172a&height=110&section=footer"
-    width="100%"
-    alt="Footer"
-  />
-</p>
