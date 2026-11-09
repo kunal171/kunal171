@@ -41,7 +41,7 @@ I am most interested in the parts that are easy to hide in a demo but difficult 
 
 | Project | Engineering focus | Status |
 |---|---|---|
-| **[Tidebook](https://github.com/kunal171/tidebook)** | Solana CLOB with collateralized orders, price-level FIFO queues, bounded atomic matching, fee accounting, a Next.js client, and a Rust indexer | Active research build |
+| **[Outcomia](https://github.com/kunal171/Outcomia)** | CLOB-based prediction markets and spot trading on Solana, with collateralized orders, price-level FIFO queues, bounded atomic matching, resolution and redemption, fee accounting, a Next.js client, and a Rust indexer | Active research build |
 | **[HFT Limit Order Book](https://github.com/kunal171/hft-limit-order-book)** | Deterministic price-time matching, O(1) cancellation, replayable events, simulation, benchmarks, and a PostgreSQL control plane | Engine and API built; integration next |
 | **[Rust VPN](https://github.com/kunal171/rust_vpn)** | Linux TUN over UDP with X25519, Ed25519, ChaCha20-Poly1305, replay protection, routing, DNS handling, and cleanup | Personal beta; not security-audited |
 | **[Subdex](https://github.com/kunal171/subdex)** | Code-first Substrate indexer for chain ingestion and backend data pipelines | In development |
@@ -76,7 +76,7 @@ I am most interested in the parts that are easy to hide in a demo but difficult 
 ## What I am building now
 
 ```text
-Tidebook                         Native Rust matching engine
+Outcomia                         Native Rust matching engine
    │                                         │
    ├─ finalized event ingestion              ├─ sequenced runtime
    ├─ indexed market state                   ├─ API integration
@@ -84,7 +84,7 @@ Tidebook                         Native Rust matching engine
    └─ live order-book views                  └─ latency benchmarks
 ```
 
-The two tracks study the same problem from different constraints: Tidebook must fit Solana's account and transaction model, while the native engine can optimize an in-memory single-writer hot path.
+The two tracks study the same problem from different constraints: Outcomia must fit Solana's account and transaction model, while the native engine can optimize an in-memory single-writer hot path.
 
 ## Activity
 
