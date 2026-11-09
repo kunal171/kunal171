@@ -40,7 +40,7 @@ I am most interested in the parts that are easy to hide in a demo but difficult 
 ## Selected systems
 
 | Project | Engineering focus |
-|---|---|---|
+|---|---|
 | **[Outcomia](https://github.com/kunal171/Outcomia)** | CLOB-based prediction markets and spot trading on Solana, with collateralized orders, price-level FIFO queues, bounded atomic matching, resolution and redemption, fee accounting, a Next.js client, and a Rust indexer |
 | **[HFT Limit Order Book](https://github.com/kunal171/hft-limit-order-book)** | Deterministic price-time matching, O(1) cancellation, replayable events, simulation, benchmarks, and a PostgreSQL control plane | 
 | **[Rust VPN](https://github.com/kunal171/rust_vpn)** | Linux TUN over UDP with X25519, Ed25519, ChaCha20-Poly1305, replay protection, routing, DNS handling, and cleanup |
