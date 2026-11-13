@@ -16,11 +16,8 @@
   <a href="mailto:kunalkunal63@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
-  <a href="https://drive.google.com/file/d/1Aw6KtOZdKzJP9aORcOHwPvyKZkWzcfZx/view?usp=drive_link">
+  <a href="https://drive.google.com/file/d/1Smx5-cecpp5opFw8cN8NscDT1d2awHcY/view?usp=sharing">
     <img src="https://img.shields.io/badge/Resume-334155?style=for-the-badge&logo=googledrive&logoColor=white" alt="Resume" />
-  </a>
-  <a href="https://drive.google.com/file/d/1u2NoEQygw5iVl_k_af0xoAMGgW5CaJ7y/view?usp=sharing">
-    <img src="https://img.shields.io/badge/Blockchain_resume-7C3AED?style=for-the-badge&logo=googledrive&logoColor=white" alt="Blockchain resume" />
   </a>
 </p>
 
