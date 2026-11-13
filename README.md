@@ -28,6 +28,10 @@ I write Rust for trading systems, Linux networking and Solana infrastructure.
 
 My main project is [Outcomia](https://github.com/kunal171/outcomia), an on-chain order book for prediction markets and spot trading. I also work on a native matching engine and an authenticated Linux VPN. The interesting work is usually in recovery, replay and the edges between components.
 
+## Open-source contributions
+
+- **[Digital Asset DPM — merged PR #341](https://github.com/digital-asset/dpm/pull/341)**: Fixed local DAR dependency paths breaking in folders with spaces. Added regression tests for special characters, Unicode and Windows-style paths.
+
 ## Selected systems
 
 | Project | Engineering focus |
